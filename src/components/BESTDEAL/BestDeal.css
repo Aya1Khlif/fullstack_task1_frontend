@@ -95,3 +95,32 @@
     margin-right: 15px;
     margin-left: -1px;
 }
+@media only screen and (max-width: 998px) {
+
+.tabs-content .img{
+    width: 100%;
+
+}
+.section-headeing h2{
+margin-top: 20%;
+margin-bottom: 30%;
+}
+
+    
+
+
+}
+  
+  
+@media only screen and (max-width: 778px) {
+ 
+.tabs-content .img{
+    width: 100%;
+    
+}
+.section-headeing h2{
+    margin-top: 20%;
+    margin-bottom: 30%;
+    }
+    
+  }

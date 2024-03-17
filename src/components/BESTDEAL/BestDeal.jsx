@@ -8,7 +8,7 @@ export default function BestDeal() {
     <div className="row">
         <div className="col-lg-4">
             <div className="section-headeing">
-            <h6 >| Best Deal</h6>
+            <h6 >|Best Deal</h6>
             <h2>Find Your Best Deal Right Now!</h2>
             </div>
         </div>
@@ -49,7 +49,7 @@ export default function BestDeal() {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <img src="./deal-01.jpg" alt=""/>
+                      <img className='img' src="./deal-01.jpg" alt=""/>
                     </div>
                     <div className="col-lg-3">
                       <h4>Extra Info About Property</h4>
