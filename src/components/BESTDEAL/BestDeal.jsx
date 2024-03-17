@@ -6,16 +6,17 @@ export default function BestDeal() {
     <>
   <div className="container best-deal mt-5  ">
     <div className="row">
-        <div className="col-lg-4">
-            <div className="section-headeing">
+        <div className="col-lg-3">
+            <div className="section-headeing ">
             <h6 >|Best Deal</h6>
             <h2>Find Your Best Deal Right Now!</h2>
             </div>
         </div>
+        
         <div className="col-lg-12">
             <div className="content">
                 <div className="row">
-                    <ul className='nav nav-wrapper'>
+                    <ul className='nav nav-wrapper mt-3'>
                         <li className='nav-item' role="presentation">
                             <button className='nav-link active'>Appartment  </button>
                         </li>
