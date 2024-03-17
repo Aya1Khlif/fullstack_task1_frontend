@@ -1,0 +1,10 @@
+*{
+    font-family: 'Poppins', sans-serif; 
+}
+.heading h6{
+    color: #f35525;
+}
+.heading h2{
+    color: black;
+    font-weight: 700;
+}

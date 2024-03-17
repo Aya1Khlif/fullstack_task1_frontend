@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+.section-heading_contact h6 {
+color: #f35525;
+}
+.contact-content {
+    margin-top: -240px;
+    position: relative;
+    z-index: 1;
+}
+.contact-content #map {
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.contact-content .item {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    padding: 35px 30px;
+    background-color: rgb(255, 255, 255);
+}
+.contact-content .item img {
+    float: left;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+.item img{
+    width: 100%;
+    overflow: hidden;
+}
+.contact-content .item h6 {
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.contact-content .item {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    padding: 35px 30px;
+    background-color: rgb(255, 255, 255);
+}
+.contact-content #contact-form {
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    padding: 35px 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+fieldset {
+    min-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+label {
+    display: inline-block;
+}
+.contact-content #contact-form label {
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    margin-bottom: 15px;
+}
+.contact-content #contact-form input {
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 0px 15px;
+}
+.contact-content #contact-form button {
+    background-color: rgb(30, 30, 30);
+    height: 44px;
+    border-radius: 22px;
+    padding: 0px 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s ease 0s;
+}
+.contact-content #contact-form textarea {
+    width: 100%;
+    height: 150px;
+    max-height: 180px;
+    border-radius: 22px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    margin-bottom: 40px;
+    font-size: 14px;
+    padding: 15px;
+}
+textarea {
+    resize: vertical;
+}
+button, input, optgroup, select, textarea {
+    margin: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}

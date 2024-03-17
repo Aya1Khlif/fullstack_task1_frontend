@@ -1,0 +1,106 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(../../../public/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 10px 0px 10px;
+    position: relative;
+}
+.section-heading h2{
+    color:white;
+}
+.section-heading  h6{
+    color: #f35525;
+}
+.video-content .video-frame{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    border-radius: 10px;
+}
+.video-content .video-frame img {
+    border-radius: 10px;
+ 
+}   
+.video-content .video-frame a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-26px, -26px);
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+    color: #f35525;
+    outline: 15px solid rgba(254, 85, 37, 0.5);
+    font-size: 20px;
+}
+
+.fun-facts {
+    text-align: center;
+    margin-top: 125px;
+}
+.fun-facts .counter {
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+    padding: 20px 0px;
+    display: inline-block;
+}
+.fun-facts .counter h2 {
+    margin-right: 25px;
+    font-size: 40px;
+    color: #f35525;
+}
+.fun-facts .counter h2, .fun-facts .counter p {
+    display: inline-flex;
+    vertical-align: middle;
+} 
+.fun-facts .counter:after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+@media only screen and (max-width: 998px) {
+    .banner{
+      display: flex;
+      flex-wrap: wrap;
+     
+    }
+    .video-content .video-frame a{
+        text-align: center;
+    }
+    .video-content .video-frame img {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+  }
+@media only screen and (max-width: 778px) {
+    .banner{
+      display: flex;
+      flex-wrap: wrap;
+     
+    }
+    .video-content .video-frame a{
+        text-align: center;
+    }
+    .video-content .video-frame img {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+  }
